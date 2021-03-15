@@ -1,0 +1,85 @@
+body{
+    background-image: url(../images/background/background.png);
+    font-family: 'Poppins', sans-serif;
+}
+li{
+    list-style-type: none;
+    display:inline-block;
+    width:20%;
+    padding:20px 5px;
+}
+nav a:link{
+    text-decoration:none;
+    border:1px solid rgb(59,74,114);
+    padding:10px 5px;
+    background-color:rgb(68, 216, 161);
+    color:rgb(59,74,114);
+    width:100%;
+    display:block;
+}
+nav a:hover{
+    text-decoration:none;
+    border:1px solid rgb(68, 216, 161);
+    background-color:rgb(59,74,114);
+    color:rgb(0, 253, 148);
+    padding:10px 5px;
+}
+.wrapper{
+    background-color:white;
+    width:60%;
+    padding:2%;
+    margin:0 auto;
+    overflow:auto;;
+
+}
+header{
+    text-align: center;
+    color:rgb(59,74,114);
+    background-color:rgb(68, 216, 161);  
+    width:60%;
+    padding:1.7%;
+    margin-left:-2%;
+    margin-top:-2%;
+    position:fixed;
+    z-index:2;
+}
+nav{
+    margin:0 auto;
+    text-align: center;
+    padding:1%;
+    position:relative;
+    top:80px;
+}
+aside{
+    width:30%;
+    position:relative;
+    overflow: auto;
+    top:80px;
+}
+    aside p{
+        text-align:center;
+    }
+    .selfie{
+    width:200px;
+    position:relative;
+    left:45px;
+    }
+.kolegij{
+    width:60%;
+    position:relative;
+    top:-610px;
+    left:330px;
+    margin-bottom:-500px;
+}
+h3,h1,h2,footer{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+footer{
+    background-color:rgb(68, 216, 161);
+    color:rgb(59,74,114);
+    font-size:18px;
+    width:60%;
+    padding:2%;
+    margin:0 auto;
+}

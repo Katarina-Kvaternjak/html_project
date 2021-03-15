@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="other pages/bootstrap-grid.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>    
+    <meta name = „author“ content="Katarina Kvaternjak" />
+    <title>Torrenti</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/3423c7c318.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+               
+    <aside>
+        <nav>
+            <ul>                    
+                <li><a href="#vrh">Vrh</a></li>
+                <li><a href="#1">Kako su nastali</a></li>
+                <li><a href="#2">Kako funkcioniraju</a></li>
+                <li><a href="#3">Nedostaci</a></li>
+                <li><a href="#4">Terminologija</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <div class="container wrapper">    
+        <div class="container">
+            <header>
+                <h1 id="vrh">Torrenti</h1>
+            </header>            
+            <nav>
+            <ul>
+                <li><a href="naslovnica.html"><i class="fas fa-home"></i> Početna</a></li>
+                <li><a href="other pages/kontakt.html"><i class="fas fa-comments"></i> Kontakt</a></li>
+                <li><a href="other pages/o_nama.html"><i class="fas fa-align-justify"></i> O nama</a></li>
+                <li><a href="other pages/novosti.html"><i class="fas fa-newspaper"></i> Novosti</a></li>
+                <li><a href="other pages/trgovina.html"><i class="fas fa-shopping-cart"></i> Trgovina</a></li>
+            </ul>
+            </nav>
+        </div>
+
+
+            
+        <div class="row">
+        <div class="col-12" id="1">
+            <h2>Nastanak</h2>
+            <p>BitTorrent tehnologiju razvio je student Bram Cohen 2001. Cohen je zamislio sustav u kojem veliku datoteku ne preuzimate od jedne osobe ili računala, već se velika datoteka dijeli na više dijelova, svaki korisnik drži dio te velike datoteke, dijeleći opterećenje, čineći postupak bržim i učinkovitijim . BitTorrent tehnologija javno je objavljena na CodeConu 2002. Ljudi su kasnije shvatili da ova tehnologija nije namijenjena samo zamjeni softvera otvorenog koda, već se može koristiti za zamjenu filmova, knjiga, igara i još mnogo toga. Ova je tehnologija sada poznata kao Peer-to-Peer ili P2P dijeljenje datoteka. Mreža ravnopravnih računala, poznata kao P2P mreža, računalna je mreža koja se oslanja na mnoga računala ili poslužitelje, a ne na centralizirano računalo ili poslužitelj. Peer-to-peer tehnologija olakšava računalima (Peers) brzo i učinkovito preuzimanje ili prijenos datoteka jer opterećenje dijeli više računala / poslužitelja.
+            </p>
+        </div>
+        <div class="col-12" id="2">
+            <h2>Kako to funkcionira?</h2>
+            <p>Osoba koja ima veliku datoteku za dijeljenje, takozvani seeder, započinje stvaranjem skupa uputa koji se nazivaju torrent. Torrent pohranjuje podatke o samoj datoteci i uključuje podatke o trackerima koje će koristiti BitTorrent protokol. Ti su trackeri poput sudaca ili koordinatora. Oni će organizirati koji korisnik prvi preuzima koji dio datoteke i koordinirati sljedeća preuzimanja i razmjene. </p>
+            <p> Postupak preuzimanja započinje kada druga osoba želi datoteku koju seeder dijeli. Ta osoba će preuzeti torrent datoteku i otvoriti ju sa torrent klijentom. Torrent klijenti specijalizirani su programi koji omogućavaju P2P djeljenje datoteka pomoću torrent datoteka. Najpoznatiji klijenti su BitTorrent, kojeg je razvio sam Bram Cohen i µTorrent. Torrent klijent će se zatim povezati s trackerima koje je odredio seeder i ući u mrežu za dijeljenje (sharing network), koja se naziva roj (swarm). Nakon što to klijent učini, počet će preuzimati dijelove velike datoteke jedan za drugim slijedeći upute od trackera. </p>
+            <p> Ono što torrente čini posebnima je to što klijent neće preuzimati samo od izvornog seedera. Moći će preuzeti neke odjeljke i od drugih korisnika takozvanih peersa. Zapravo, to radi tracker. Koordinira koji korisnik (koji se naziva ili peer ili leech) ima koji odjeljak datoteke, tako da različite dijelove datoteke možete preuzeti od različitih ljudi. Istovremeno za vrijeme preuzimanja preuzimatelj će prenijeti i nekoliko odjeljaka datoteke, ali tijekom razmjene torrenata nema razloga za brigu: preuzet će odjeljke onih datoteka navedenih u torrent datoteci i prenijet će odjeljke samo tih datoteka. Nakon preuzimanja cijele datoteke preuzimatelj postaje novi seeder za ostatak zajednice.</p>
+        </div>
+        <div class="slika1 col-lg-6 col-sm-12"><img src="images/bittorrent.png" title="logo BitTorrenta" alt="logo bittorrenta"></div>
+        <div class="col-lg-6 col-sm-12 slika2"><img src="images/UTorrent_logo.png" title="logo uTorrenta" alt="logo uTorrenta"></div>
+        <div class="col-12 slika3"><img src="images/bittorrent-screenshot.png" title="BitTorrent sučelje" alt="BitTorrent sučelje" width="60%"></div>
+        <div class="col-12" id="3">
+            <h2>Nedostaci</h2>
+            <p>Sam po sebi koncep BitTorrent tehnologije nije ilegalan. Naprimjer Blizzard koristi vlastiti BitTorrent klijent pri instalaciji svojih igara. Međutim torrenti imaju reputaciju kao illegalni alat jer se vrlo često koriste za razmjenu zakonom zaštićenog sadržaja poput filmova, serija i video igara. Osim toga seederi vrlo često među datoteke ubacuju viruse. Ali to nije sve, vaša IP adresa je u BitTorrent protokolu javna pa se uvijek pri korištenju torrenata preporuča korištenje VPN-a (virtualne privatne mreže) koja će zamaskirati vašu originalnu IP adresu.</p>
+        </div>
+
+            <div class="row">
+                <div class="col-12 slika2"><img src="images/ilegalno.jpg" title="downlodanje ilegalnog sadržaja" alt="downlodanje ilegalnog sadržaja" width="60%">
+                </div>
+            </div>        
+
+        <div class="container tablica" id="4">            
+            <h2>Terminologija</h2>
+            <table>
+                <tr>
+                    <td colspan="3" rowspan="2">Peers</td>
+                    <td colspan="5" rowspan="2">Svi koji uplodaju ili downlodaju datoteke na P2P stranici za dijeljenje podataka.</td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td colspan="3" rowspan="2">Seeders</td>
+                    <td colspan="5" rowspan="2">Osoba koja je završila s downloadanjem datoteke, ali dozvoljava da drugi od nje preuzimaju datoteku.</td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td colspan="3" rowspan="2">Leechers</td>
+                    <td colspan="5" rowspan="2">Osoba koja samo downloada datoteke.</td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td colspan="3">Swarm</td>
+                    <td colspan="5">Sve osobe koje dijele jedan torrent. Npr. 8 seedera i 2 leechera čine swarm od 10 ljudi.</td>
+                </tr>
+                <tr>
+                    <td colspan="3">Torrents</td>
+                    <td colspan="5">Torrent datoteka sadrži podatke i metapodatke o datotekama koje se dijele. Također sadrži listu mrežnih lokacija trackera.</td>
+                </tr>
+                <tr>
+                    <td colspan="3">Trackers</td>
+                    <td colspan="5">Tracker je server koji prati koliko je seedera i peerova u jednom swarmu. BitTorrent klijenti periodično šalju informacije trackerima koji im onda šalju povratnu informaciju na koje klijente se mogu povezati.</td>
+                </tr>                
+            </table>
+        </div>
+        <footer>
+            <p>Katarina Kvaternjak | 1191234544</p>
+        </footer>   
+    </div>
+
+
+</body>
+</html>
